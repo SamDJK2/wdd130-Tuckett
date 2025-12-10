@@ -8,14 +8,28 @@ h1{
 p {
     font-family: "Alice", serif;
 }
-nav {
-    align-items: center;
+/* header {
+    height: 50px;
+    text-align: center;
+} */
+#logo-id {
+    width: 100px;
+    height: 100px;
 }
 main {
     background-color: #ffffff;
 }
 footer {
     background-color: #ffffff;
+}
+nav {
+    display: flex;
+}
+nav a {
+    background-color: #30a2a2;
+    padding: 10px;
+    margin: 10px;
+    margin: 0 auto;
 }
 .materials {
     display: grid;
