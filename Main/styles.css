@@ -9,6 +9,56 @@ h1{
 p {
     font-family: "Alice", serif;
 }
+/* header {
+    height: 50px;
+    text-align: center;
+} */
+#logo-id {
+    width: 100px;
+    height: 100px;
+}
+main {
+    background-color: #ffffff;
+}
+footer {
+    background-color: #ffffff;
+}
+nav {
+    display: flex;
+}
+nav a {
+    background-color: #30a2a2;
+    padding: 10px;
+    margin: 10px;
+    margin: 0 auto;
+}
+.materials {
+    display: grid;
+    grid-template-columns: 4;
+    gap: 20px;
+    text-align: center;
+}
+.blueYarn {
+    grid-column: 1/2;
+    border-radius: 10%;
+    border: 5px solid#e196a2;
+}
+.pinkYarn {
+    grid-column: 2/3;
+    border: 5px solid#e196a2;
+    border-radius: 10%;
+}
+.redBeeYarn {
+    grid-column: 3;
+    border: 5px solid#e196a2;
+    border-radius: 10%;
+}
+.redHeartYarn {
+    grid-column: 1/2;
+    grid-row: 2;
+    border: 5px solid#e196a2;
+    border-radius: 10%;
+}
 footer{
     display: grid;
     grid-template-columns: 1fr repeat(3, 100px);
